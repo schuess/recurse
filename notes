@@ -1,0 +1,13 @@
+
+Julian Squires (F2'17): I'm sure Ayla will have better advice than I have, but I can say a few things. If you want to start fast, there are a lot of tutorials that explain the basic ideas of pixeling that you might find helpful. I think it's useful to use a tool like grafx2 and spend time studying the details on pixel art you admire. What is it about certain arrangements of pixels that makes a line feel "right" or things feel solid or not? And also if you work in a very restricted size and palette, you should be able to get something cute and satisfying quickly. Trying to "copy" pixel art you like can be helpful, too; try to copy it from glances, then look closely at the original vs your own -- how do subtle touches like dithering or the colors of the border make the effect that's otherwise elusive?
+
+Julian Squires (F2'17): I think pixel art can be very rewarding and I wish I did more.
+
+Julian Squires (F2'17): The tutorial I remember best is Derek Yu's but a glance at it reveals that it's focused on a target much more complicated than you probably want to aim for. However, it does talk about some of the important ideas of how lines work in pixel art and some useful "don't"s. (BTW, I found this paper (Depixelizing Pixel Art) interesting for deepening my understanding of the subtleties of pixelling.)
+
+BTW I don't think you need to do anything to get started other than fire up a pixel art tool and start plotting pixels! Try working really small, like 16x16, with high-magnification, and a palette of only a few colors, maybe 4.
+
+Julian Squires (F2'17): I failed to use this for PROCJAM, but a while ago I found this lovely procedural sprite generator: https://github.com/zfedoran/pixel-sprite-generator
+It can be useful to study those patterns as inspiration for hand-pixelling, because they reveal features that our brains interpret as more complex than they are.
+
+
