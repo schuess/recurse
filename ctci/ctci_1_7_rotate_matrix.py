@@ -9,12 +9,12 @@
 # numpy
 def rotate_matrix1(M):
     import numpy as np
-    M = np.arange(1, 16 + 1).reshape(4, 4)
+    # M = np.arange(1, 16 + 1).reshape(4, 4)
     return np.transpose(np.flip(M, 0))
 
 # list comprehension
 def rotate_matrix2(M):
-    M = [[c + (r - 1) * 4 for c in range(1, 5)] for r in range(1, 5)]
+    # M = [[c + (r - 1) * 4 for c in range(1, 5)] for r in range(1, 5)]
     return [list(t) for t in zip(*reversed(M))]
 
 # map
