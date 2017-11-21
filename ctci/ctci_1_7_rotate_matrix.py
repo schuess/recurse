@@ -28,7 +28,7 @@ def rotate_matrix4(M):
     # maps 0..3 to 3..0, for example
     def rotated(x, l = 4):
         # how do I reference len(M) here?
-        return range(l - 1, -10, -1)[range(l).index(x)]
+        return range(l - 1, -1, -1)[range(l).index(x)]
 
     to_do = [(r, c) for r in range(len(M)) for c in range(len(M))]
     done = []
