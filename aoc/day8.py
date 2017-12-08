@@ -20,7 +20,7 @@ def main():
         all_inx.append(parse(i))
     exec(''.join(all_inx))
 
-    return max(r.values()), r['m'], ''.join(all_inx)
+    return max(r.values()), r['m']
 
 if __name__ == "__main__":
     main()
