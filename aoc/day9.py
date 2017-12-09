@@ -18,5 +18,3 @@ for c in text_minus_garbage:
         level -= 1
 
 print(f'score: {score}; garbage_count: {garbage_count}; num_matches: {num_matches}')
-
-
