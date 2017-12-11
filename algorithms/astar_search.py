@@ -19,7 +19,6 @@ class Node:
         self.shortest_distance = sd
 
 
-
 def astar_search(start, goal, heuristic):
     frontier = [start]
     visited = set()
@@ -28,20 +27,22 @@ def astar_search(start, goal, heuristic):
         current_node = heappop(frontier)
 
         if current_node == goal:
-            # return path
-            shortest_path = []
+            path = []
             n = current_node
 
             while n.previous:
-                shortest_path.append(n)
+                path.append(n)
                 n = n.previous
-            shortest_path.append(n)
 
-            return shortest_path.reversed()
+            path.append(n)
+            path.reverse()
+
+            return path
 
         for n in current_node.neighbors:
             if n not in visited:
                 heappush(frontier, (heuristic(n) + n.shortest_distance, n))
         visited.add(current_node)
 
-    return None
+    return []
+
